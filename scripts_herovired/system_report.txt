@@ -1,0 +1,51 @@
+System Uptime:
+ 15:46:41 up 12 min,  1 user,  load average: 0.01, 0.05, 0.03
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           1.9Gi       538Mi       1.2Gi       3.0Mi       144Mi       1.2Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+CPU Load:
+top - 15:46:41 up 12 min,  1 user,  load average: 0.01, 0.05, 0.03
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            954M  4.0K  954M   1% /mnt/wsl
+drivers         233G  198G   35G  86% /usr/lib/wsl/drivers
+none            954M     0  954M   0% /usr/lib/modules
+none            954M     0  954M   0% /usr/lib/modules/5.15.153.1-microsoft-standard-WSL2
+/dev/sdc       1007G  1.7G  954G   1% /
+none            954M   80K  954M   1% /mnt/wslg
+none            954M     0  954M   0% /usr/lib/wsl/lib
+rootfs          951M  2.1M  949M   1% /init
+none            954M  848K  954M   1% /run
+none            954M     0  954M   0% /run/lock
+none            954M     0  954M   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            954M   76K  954M   1% /mnt/wslg/versions.txt
+none            954M   76K  954M   1% /mnt/wslg/doc
+C:\             233G  198G   35G  86% /mnt/c
+D:\             300G  129G  172G  43% /mnt/d
+F:\             167G   99M  166G   1% /mnt/f
+snapfuse         75M   75M     0 100% /snap/core22/1439
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         74M   74M     0 100% /snap/core22/864
+snapfuse         41M   41M     0 100% /snap/snapd/20290
+snapfuse         39M   39M     0 100% /snap/snapd/21759
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+tmpfs           191M  4.0K  191M   1% /run/user/1002
+
+Running Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         350  0.9  4.1 852892 80788 ?        Sl   15:33   0:07 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         161  0.3  2.2 1689648 43632 ?       Ssl  15:33   0:02 /usr/lib/snapd/snapd
+root         516  0.9  1.9  44188 37580 ?        S    15:34   0:07 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         267  0.0  1.0 107228 21056 ?        Ssl  15:33   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         153  0.0  0.9  30100 18944 ?        Ss   15:33   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          78  0.1  0.8 377284 15864 ?        Ssl  15:33   0:01 snapfuse /var/lib/snapd/snaps/core22_1439.snap /snap/core22/1439 -o ro,nodev,allow_other,suid
+root          43  0.0  0.7  47816 14452 ?        S<s  15:33   0:00 /lib/systemd/systemd-journald
+www-data     292  0.0  0.6 1932644 12708 ?       Sl   15:33   0:00 /usr/sbin/apache2 -k start
+www-data     293  0.0  0.6 1998180 12708 ?       Sl   15:33   0:00 /usr/sbin/apache2 -k start
